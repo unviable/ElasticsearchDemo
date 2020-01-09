@@ -1,0 +1,19 @@
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  type-aliases-package: com.huawei.main.pojo
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/java58?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password:
+  data:
+    elasticsearch:
+      cluster-name: elaselasticsearch #节点名字 采用默认名字
+      cluster-nodes: 127.0.0.1:9300 #节点地址
+      repositories:
+        enabled: true
+      transport:
+        ping_timeout: 120
+server:
+  port: 8080
