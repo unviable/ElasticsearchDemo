@@ -1,0 +1,3 @@
+# ElasticsearchDemo
+springboot整合elasticsearch
+Spring-data-elasticsearch是Spring提供的操作ElasticSearch的数据层，封装了大量的基础操作，通过它可以很方便的操作ElasticSearch的数据
