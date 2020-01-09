@@ -1,3 +1,4 @@
 # ElasticsearchDemo
 springboot整合elasticsearch
 Spring-data-elasticsearch是Spring提供的操作ElasticSearch的数据层，封装了大量的基础操作，通过它可以很方便的操作ElasticSearch的数据
+ElasticSearch的实现类需要打component注解来产生bean，自定义查询方法需要按规定的方法名书写

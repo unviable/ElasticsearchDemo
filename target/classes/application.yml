@@ -9,8 +9,8 @@ spring:
     password:
   data:
     elasticsearch:
-      cluster-name: elaselasticsearch #节点名字 采用默认名字，5.6版本需要去掉elasticsearch.yml中的节点注释
-      cluster-nodes: 127.0.0.1:9300 #节点地址  http请求的端口为9200--http通讯 java代码的端口为9300-tcp通讯(jar包之间的通讯)
+      cluster-name: elaselasticsearch #节点名字 采用默认名字
+      cluster-nodes: 127.0.0.1:9300 #节点地址
       repositories:
         enabled: true
       transport:
